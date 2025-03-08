@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <title>CSS - Class01</title>
+    
+    /* !-- Internal CSS -->
+    <!-- text-align cannot use in inline element -->
+    <!-- text-align use in in block-level element -->
+    <!-- Code read top to bottom --> */
+   style{
+    
+    Selecter Element mean select by element name 
+    header a{
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        color: red;
+    }
+    header a{
+        color: yellow;
+    }
+     body{
+        background-color: black;
+    } 
+    h2{
+        text-align: center;
+        color: yellow;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    footer p{
+        text-align: center;
+        background-color: black;
+        color: red;
+        margin: 0;
+
+    }
+    #year{
+        background-color: white;
+        color: #1d3557;
+        font-weight: bold;
+
+    }
+    /* Selector id mean selector by id attribute */
+    #goole-link{
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        color: red;
+    }
+}
+  
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Index</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Inline CSS -->
+        <h1 style="text-align: center; color: red; font-style: italic; text-decoration: underline;">CSS - Class01</h1>
+        
+        <h2>CSS - Class01</h2>
+        <a href="https://google.com" id="goole-link">Go to google</a>
+    </main>
+    <footer>
+        <p>copy& <span id="year">2024</span> . All right reserve</p>
+    </footer>
+</body>
+</html>
