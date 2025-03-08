@@ -1,0 +1,181 @@
+.container{
+    margin-top: 130px;
+    margin-left: 170px;
+    font-family: sans-serif;
+}
+.container h2,h3{
+    font-weight: normal;
+}
+.container h3{
+    font-size: larger;
+}
+.container button{
+    border: 1px solid white;
+    background-color: rgb(26, 197, 240);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 30px;
+    position: relative;
+    right: 600px;
+    font-size: 12px;
+}
+
+img{
+    height: 550px;
+    margin-left: 600px;
+    bottom: 240px;
+    position: relative;    
+}
+
+.text{
+    display: inline;
+    color: rgb(217, 221, 223);
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+
+}
+.text1{
+    position: relative;
+    right: 280px;
+    bottom: 150px;
+    text-align: center;
+
+}
+.text1 p{
+    font-size: small;
+
+}
+.text1 h2{
+    font-style: inherit;
+}
+.text2{
+    position: relative;
+    text-align: center;
+    /* bottom: 300px;
+    left: 30px; */
+    bottom: 280px;
+    right: 10px;
+}
+.text2 p{
+    font-size: small;
+}
+.text3{
+    position: relative;
+    text-align: center;
+    bottom: 420px;
+    margin-left: 550px;
+} 
+.text3 p{
+    font-size: small;
+}
+
+.logo{
+    
+    position: relative;
+    right: 600px;
+    bottom: 530px;
+    z-index: -1;
+    display: inline-block;
+    
+}
+
+.mission{
+    position: relative;
+    bottom: 570px;
+
+} 
+
+.mission h2{
+    text-align: center;
+    font-weight: normal;
+
+}
+.mission p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+}
+button{
+    margin-left: 600px;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    background-color: lightseagreen;
+    padding: 7px 20px;
+    border-radius: 15px;
+    font-size: 10px;
+}
+
+.responsive{
+    position: relative;
+    bottom: 250px;
+    text-align: center;
+    color: white;
+    
+}
+.responsive h2{
+
+    font-weight: normal;
+}
+.responsive p{
+    font-size: small;
+}
+
+.bor{
+
+    padding: 10px;
+    margin: 0 auto;
+}
+.bor1{
+    border: 1px dashed white;
+    color: white;
+    height: 250px;
+    width: 400px;
+    position: relative;
+    bottom: 250px;
+    left: 200px;
+    text-align: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+    font-size: larger;
+    word-spacing: 4px;
+    font-family: sans-serif;
+}
+.bor2{
+    border: 1px dashed white;
+    color: white;
+    height: 250px;
+    width: 400px;
+    position: relative;
+    left: 650px;
+    bottom: 500px;
+    text-align: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+    font-size: larger;
+    word-spacing: 4px;
+    font-family: sans-serif;
+}
+
+.foot{
+    position: relative;
+    bottom: 500px;
+    color: white;
+    text-align: center;
+}
+.foot p{
+    font-size: small;
+}
+.last {
+    position: relative;
+    
+    display: block;
+    right: 600px;
+    bottom: 1000px;
+    z-index: -1;
+    margin-top: 150px;
+    margin-right: 100px;
+    width: 100%;
+    
+}
