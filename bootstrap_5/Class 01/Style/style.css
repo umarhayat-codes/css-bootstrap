@@ -1,0 +1,14 @@
+.card{
+    height: 200px;
+    /* line-height: 200px; */
+    margin-bottom: 5px;
+}
+
+.card:hover{
+    background-color: #1d3557;
+    color: white !important;
+}
+
+/* div{
+    margin-bottom: 8px;
+} */

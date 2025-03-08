@@ -1,0 +1,26 @@
+/* #hero-section{
+    background-image: url("../Asset/IMG-20240218-WA0013.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+#BR-word{
+    background-color: rgba(0,0,0,0.75);
+}
+
+#about-section img{
+    filter: grayscale(0.75);
+} */
+
+
+#hero-section{
+    background-image: url("../Asset/IMG-20240218-WA0013.jpg");
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+}
+
+#BR-word{
+    background-color: rgba(0,0,0,0.75);
+}
