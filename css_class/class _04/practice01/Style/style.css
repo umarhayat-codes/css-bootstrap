@@ -1,0 +1,111 @@
+header{
+    background-color: grey;
+    text-align: center;
+}
+header nav a{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+header nav a.active{
+    background-color: green;
+    
+
+}
+header nav a:hover:not(.active){
+    background-color: white;
+    color: black;
+}
+/* Width & max width & min width */
+/* .box{
+    border: 2px solid red;
+    margin: 5px;
+    height: 100px;
+
+}
+.box1{
+    width: 500px;
+}
+.box2{
+    max-width: 500px;
+}
+.box3{
+    min-width: 5oopx;
+} */
+
+/* position */
+.box{
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+    margin: 3px;
+    border: 2px solid red;
+}
+.box1{
+    background-color: green;
+     /* position: relative;
+    z-index: 2; */
+    /* position: absolute; 
+    bottom: 0; */
+    position: sticky;
+    top: 0;
+}
+.box2{
+    background-color: blue;
+    /* position: relative;
+    bottom: 45px;
+    left: 40px; */
+}
+.box3{
+    background-color: black;
+    /* position: fixed;
+    bottom: 0px;
+    right: 15px; */
+}
+
+.parent{
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid red;
+    /* position: absolute; */
+}
+/* Owerflow & max - min height*/
+.daba{
+    border: 2px solid red ;
+    margin: 5px;
+
+}
+.daba1{
+    width: 500px;
+    height: 50px;
+    overflow: auto;
+}
+.daba2{
+    max-width: 500px;
+    max-height: 50px;
+    overflow: auto;
+}
+.daba3{
+    min-width: 500px;
+    min-height: 100px;
+}
+
+/*float*/
+.btn{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 2s;
+}
+.btn:hover{
+    /* float: right; */
+    background-color: black;
+    color: white;
+    
+}

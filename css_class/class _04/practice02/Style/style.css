@@ -1,0 +1,88 @@
+ header{
+    background-color: blue;
+    text-align: center;
+
+}
+header nav a{
+    color: wheat;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-family: sans-serif;
+
+}
+header nav a.active{
+    background-color: green;
+}
+header nav a:hover:not(.active){
+    background-color: red;
+}
+
+/* position */
+.parent{
+    height: 400px;
+    border: 1px solid red ;
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+}
+.child{
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.child1{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    /* position: relative;
+    top: 50px;
+    left: 70px; */
+    /* position: sticky;
+    top: 500px;
+    left: 300px; */
+
+}
+.child2{
+    height: 120px;
+    width: 120px;
+    /* height: 125px;
+    width: 125px; */
+    background-color: blue;
+    /* position: relative;
+    z-index: 1; */
+    /* position: absolute;
+    top: 600px; */
+
+}
+.child3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+   /* position: fixed;
+   top: 300px;
+   left: 300px; */
+}
+
+/* overflow */
+.areacontainer{
+    border: 1px solid red;
+    min-height: 100px;
+    margin: 5px;
+    max-height: 250px;
+    max-width: 500px;
+    overflow: auto;
+}
+ .areacontainer::-webkit-scrollbar{
+    width: 6px; 
+
+ }
+ /* .areacontainer::-webkit-scrollbar-track{
+    background-color: black;
+ } */
+ .areacontainer::-webkit-scrollbar-thumb{
+    background-color: black;
+ }
+
